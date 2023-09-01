@@ -27,15 +27,15 @@ keyboardRef.current.show();
 keyboardRef.current.hide();
 
 <Keyboard
-	ref={keyboardRef}
-	type="letter"
-	length={6}
-	encrypt="md5"
-	publicKey=""
-	privateKey=""
-	onFinish={vlaue => {
-		console.log('密码是', vlaue);
-	}}
+ ref={keyboardRef}
+ type="letter"
+ length={6}
+ encrypt="md5"
+ publicKey=""
+ privateKey=""
+ onFinish={vlaue => {
+   console.log('密码是', vlaue);
+ }}
 />;
 ```
 
