@@ -46,10 +46,9 @@ keyboardRef.current.hide();
 | type       | 键盘类型，num: 纯数字键盘； letter: 数字、字母、字符键盘； | String |  num   |
 | length     | 密码的位数，4 位密码 6 位密码 18 位以内的密码              | Number |   6    |
 | ref        | 获取当前实例                                               | ref    |   -    |
-| encrypt    | 加密方式，ras、md5 加密方式, ras 时必须传公钥 publicKey    | String | String |
+| encrypt    | 加密方式，ras、md5 加密方式, ras 时必须传公钥 publicKey    | String |        |
 | publicKey  | 公钥，encrypt="rsa"时必传                                  | String |        |
-| privateKey | 私钥，公钥加密后使用 privateKey 私钥解密                   | String |        |
-| duration   | 支付成功提示的显示时间                                     | Number |  500   |
+| privateKey | 私钥，公钥加密后使用 privateKey 私钥解密（测试加密用）     | String |        |
 
 ### Event
 
